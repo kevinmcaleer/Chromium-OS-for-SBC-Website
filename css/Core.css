@@ -1,1 +1,21 @@
 @charset "UTF-8";
+
+.container .footer {
+	background-color: #EAEAEA;
+	text-align: center;
+}
+
+.sitemap ul{
+	text-decoration: none;
+	list-style: none;
+	padding-left: 0px;
+	margin-left: 0px;
+	font-size: 9pt;
+	
+}
+.sitemap h2 a{
+	font-size: 9pt;
+	color: gray;
+	padding: 0px;
+	margin: 0px;
+}
