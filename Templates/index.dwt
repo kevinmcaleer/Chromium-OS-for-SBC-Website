@@ -15,65 +15,49 @@
 <script src="../js/jquery-3.2.1.min.js"></script>
 <script src="../js/popper.min.js"></script>
 <script src="../js/bootstrap-4.0.0.js"></script>
-<body><!-- #BeginLibraryItem "/Library/nav.lbi" --><nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Chromium OS for SBC</a>
+<body><!-- #BeginLibraryItem "/Library/nav.lbi" -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Chromium OS for SBC</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent1">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active"> <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a> </li>
       <li class="nav-item"><a class="nav-link" href="../download.html">Downloads</a></li>
-      <li class="nav-item"><a class="nav-link" href="../Library/Install.html">Install</a></li>
-      <li class="nav-item"><a class="nav-link" href="../Library/Learn.html">Learn</a></li>
-      <li class="nav-item"><a class="nav-link" href="../Library/News.html">News</a></li>
-		<li class="nav-item"><a class="nav-link" href="../contactus.html">Contact Us</a></li>
-        <ul>
-          <li class="nav-link"><a href="../aboutus.html">About Us</a></li>
-          <li  class="nav-link"><a href="../followus.html">Follow Us</a></li>
-        </ul>
-      </li>
+      <li class="nav-item"><a class="nav-link" href="../Install.html">Install</a></li>
+      <li class="nav-item"><a class="nav-link" href="../Learn.html">Learn</a></li>
+      <li class="nav-item"><a class="nav-link" href="../News.html">News</a></li>
+      <li class="nav-item"><a class="nav-link" href="../contactus.html">Contact Us</a></li>
     </ul>
   </div>
 </nav>
-<!-- #EndLibraryItem --><div class="container"><!-- TemplateBeginEditable name="Content" -->Content
-  <table width="800px" border="0" cellpadding="0" cellspacing="0">
-    <tr>
-      <td><img alt="Social Media Image" src="../images/FollowUsSocialMedia.png" width="400px"></td>
-      <td><img alt="" src="#" width="400px"></td>
-    </tr>
-    <tr>
-      <td><img alt="" src="#" width="400px"></td>
-      <td><img alt="" src="#" width="400px"></td>
-    </tr>
-  </table>
-  	
-</div>
-	<!-- TemplateEndEditable -->
-	<!-- #BeginLibraryItem "/Library/Sitemap.lbi" --><div class="sitemap">
+<!-- #EndLibraryItem --><div class="container"><!-- TemplateBeginEditable name="Content" --><h1>Content</h1>
+
+	<!-- TemplateEndEditable --></div><!-- #BeginLibraryItem "/Library/Sitemap.lbi" --><div class="sitemap">
     <div class="container">
-      <h1>Sitemap</h1>
       <div class="row">
-        <div class="col-4 col-lg-3">
+        <div class="col-2 col-lg-2">
           <h2><a href="../index.html">Home</a></h2>
           <ul>
             <li><a href="../Mission.html">Our Mission</a></li>
           </ul>
         </div>
-        <div class="col-4 col-lg-3">
+        <div class="col-2 col-lg-2">
           <h2><a href="../download.html">Downloads</a></h2>
           <ul>
             <li>Download Release</li>
             <li><a href="../Install.html">Installation Instructions</a></li>
-            <li><a href="../FAQs">FAQs</a></li>
+            <li><a href="../FAQs.html">FAQs</a></li>
             <li><a href="../Releases.html">Release Notes</a></li>
           </ul>
         </div>
-        <div class="col-4 col-lg-3">
+        <div class="col-2 col-lg-2">
           <h2><a href="../Install.html">Install</a></h2>
           <ul>
             <li><a href="../Install.html">Install</a></li>
             <li>Compiling</li>
           </ul>
         </div>
-        <div class="col-4 col-lg-3">
+        <div class="col-2 col-lg-2">
           <h2><a href="../Learn.html">Learn</a></h2>
           <ul>
             <li>Learn</li>
@@ -82,13 +66,13 @@
             <li>Roadmap</li>
           </ul>
         </div>
-        <div class="col-4 col-lg-3">
+        <div class="col-2 col-lg-2">
           <h2><a href="../News.html">News</a></h2>
           <ul>
             <li>Blog, Newsletter Signup</li>
           </ul>
         </div>
-        <div class="col-4 col-lg-3">
+        <div class="col-2 col-lg-2">
           <h2><a href="../contactus.html">Contact Us</a></h2>
           <ul>
             <li>Meet the team</li>
@@ -101,7 +85,9 @@
         </div>
       </div>
     </div>
-  </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/footer.lbi" --><div class="container">
-  <footer class="footer">Copyright 2018 ChromiumOS-SBC.Org, All Rights Reserved.</footer>
-</div><!-- #EndLibraryItem --></body>
+  </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/footer.lbi" -->
+<footer class="footer">
+  <div class="container">Copyright 2018 ChromiumOS-SBC.Org, All Rights Reserved.</div>
+</footer>
+<!-- #EndLibraryItem --></body>
 </html>

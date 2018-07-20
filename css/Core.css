@@ -1,8 +1,22 @@
 @charset "UTF-8";
 
-.container .footer {
-	background-color: #EAEAEA;
+.footer {
+	background-color: #47A1DB;
 	text-align: center;
+	font-family: lato;
+	font-size: 10pt;
+	height: 50px;
+	color: white;
+	vertical-align: middle;
+	display: block;
+	padding-top: 15px;
+}
+
+.sitemap {
+	background-color: #E5E5E5;
+	font-family: lato;
+	font-size: 10pt;
+	padding: 10px;
 }
 
 .sitemap ul{
@@ -11,11 +25,39 @@
 	padding-left: 0px;
 	margin-left: 0px;
 	font-size: 9pt;
+	display: block;
 	
 }
 .sitemap h2 a{
 	font-size: 9pt;
-	color: gray;
+	font: bold;
+	font-family: lato;
+	color: #111111;
+	padding: 0px;
+	margin-top: 20px;
+	display: block;
+}
+
+.sitemap , a {
+	color: #888888;
+}
+.sitemap ul  {
 	padding: 0px;
 	margin: 0px;
+	display: block;
+	
+}
+.sitemap h2 {
+	
+	padding: 0px;
+	margin: 0px;
+}
+.content {
+	margin: 40px;
+}
+
+.jumboimage {
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
