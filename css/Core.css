@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 .footer {
 	background-color: #47A1DB;
 	text-align: center;
@@ -11,24 +10,21 @@
 	display: block;
 	padding-top: 15px;
 }
-
 .sitemap {
 	background-color: #E5E5E5;
 	font-family: lato;
 	font-size: 10pt;
 	padding: 10px;
 }
-
-.sitemap ul{
+.sitemap ul {
 	text-decoration: none;
 	list-style: none;
 	padding-left: 0px;
 	margin-left: 0px;
 	font-size: 9pt;
 	display: block;
-	
 }
-.sitemap h2 a{
+.sitemap h2 a {
 	font-size: 9pt;
 	font: bold;
 	font-family: lato;
@@ -37,27 +33,41 @@
 	margin-top: 20px;
 	display: block;
 }
-
-.sitemap , a {
+.sitemap, a {
 	color: #888888;
 }
-.sitemap ul  {
+.sitemap ul {
 	padding: 0px;
 	margin: 0px;
 	display: block;
-	
 }
 .sitemap h2 {
-	
 	padding: 0px;
 	margin: 0px;
 }
 .content {
 	margin: 40px;
 }
-
 .jumboimage {
 	position: absolute;
 	top: 0px;
 	right: 0px;
+}
+.btn {
+	height: 36px;
+	width: 144px;
+	border: 0;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	
+}
+#btnDownload {
+	background-color: #48B4FB;
+	border-right: 10px solid #3586BC;
+}
+#btnInstall {
+	background-color: #E85038;
+	border-right: 10px solid #AD3B29;
 }
