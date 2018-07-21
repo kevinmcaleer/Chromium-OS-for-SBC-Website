@@ -30,7 +30,16 @@
     </ul>
   </div>
 </nav>
-<!-- #EndLibraryItem --><div class="container"><!-- TemplateBeginEditable name="Content" --><h1>Content</h1>
+<!-- #EndLibraryItem --><div class="container"><p>
+	<nav>
+	<ol class="breadcrumb">
+	  <!-- TemplateBeginEditable name="breadcrumb" -->
+		<li class="breadcrumb-item">Home</li>
+		<!-- TemplateEndEditable -->
+		</ol>
+	</nav>
+	</p>
+  <!-- TemplateBeginEditable name="Content" --><h1>Content</h1>
 
 	<!-- TemplateEndEditable --></div><!-- #BeginLibraryItem "/Library/Sitemap.lbi" --><div class="sitemap">
     <div class="container">
@@ -60,9 +69,9 @@
         <div class="col-2 col-lg-2">
           <h2><a href="../Learn.html">Learn</a></h2>
           <ul>
-            <li>Learn</li>
+            <li><a href="../Learn.html">Learn</a></li>
             <li>Videos</li>
-            <li>FAQs</li>
+            <li><a href="../FAQs.html">FAQs</a></li>
             <li>Roadmap</li>
           </ul>
         </div>
@@ -75,8 +84,8 @@
         <div class="col-2 col-lg-2">
           <h2><a href="../contactus.html">Contact Us</a></h2>
           <ul>
-            <li>Meet the team</li>
-            <li>Follow us</li>
+            <li><a href="../Meetus.html">Meet the team</a></li>
+            <li><a href="../contactus.html#FollowUs">Follow us</a></li>
             <li>Talk to us</li>
             <li>Contact us</li>
             <li>Donate</li>
