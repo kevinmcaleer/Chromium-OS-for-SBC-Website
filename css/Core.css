@@ -11,10 +11,10 @@
 	padding-top: 15px;
 }
 .sitemap {
-	background-color: #E5E5E5;
 	font-family: lato;
 	font-size: 10pt;
 	padding: 10px;
+	color: #EEEEEE;
 }
 .sitemap ul {
 	text-decoration: none;
@@ -28,13 +28,13 @@
 	font-size: 9pt;
 	font: bold;
 	font-family: lato;
-	color: #111111;
+	color: #FFFFFF;
 	padding: 0px;
 	margin-top: 20px;
 	display: block;
 }
 .sitemap, a {
-	color: #888888;
+	color: #CCCCCC;
 }
 .sitemap ul {
 	padding: 0px;
@@ -70,4 +70,27 @@
 #btnInstall {
 	background-color: #E85038;
 	border-right: 10px solid #AD3B29;
+}
+.navbar-brand, .nav-link {
+	font-family: lato;
+}
+
+.card-download, .card-install, .card-learn, .card-news {
+	color: white;
+	font-family:lato;
+}
+.card-download {
+	background-color: #9ED76A;
+}
+.card-install {
+	background-color: #E85038;
+}
+.card-learn {
+	background-color: #13A2E0;
+}
+.card-news {
+	background-color: #FFBF00;
+}
+.btn-alpha {
+	background-color: rgba(21,21,21,0.58);
 }

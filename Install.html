@@ -1,7 +1,15 @@
 <!doctype html>
-<html>
-<!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<html><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122678808-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122678808-1');
+</script>
 <meta charset="UTF-8">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Chromium OS for Single Board Computers</title>
@@ -13,12 +21,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
 <link href="css/Core.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/hqu5ubi.css">
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.0.0.js"></script>
-<body>
-<!-- #BeginLibraryItem "/Library/nav.lbi" -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Chromium OS for SBC</a>
+	
+<body><!-- #BeginLibraryItem "/Library/nav.lbi" -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Chromium OS for SBC</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent1">
     <ul class="navbar-nav mr-auto">
@@ -31,24 +41,21 @@
     </ul>
   </div>
 </nav>
-<!-- #EndLibraryItem -->
-<div class="container">
-  <p>
-  
-  <nav>
-    <ol class="breadcrumb">
-      <!-- InstanceBeginEditable name="breadcrumb" -->
+<!-- #EndLibraryItem --><div class="container"><p>
+	<nav>
+	<ol class="breadcrumb">
+	  <!-- InstanceBeginEditable name="breadcrumb" -->
       <li class="breadcrumb-item"><a href="index.html">Home</a></li>
       <li class="breadcrumb-item active">Install</li>
       <!-- InstanceEndEditable -->
-    </ol>
-  </nav>
-  </p>
+		</ol>
+	</nav>
+	</p>
   <!-- InstanceBeginEditable name="Content" -->
-  <div class="card"><img class="card-img-top" src="images/Install.png" alt="install image">
+  <div class="card"><img class="card-img-top" src="images/Install2018.png" alt="install image">
     <div class="card-body">
       <div class="card-group">
-        <div class="card w-50">
+        <div class="card">
           <h5 class="card-header">Install</h5>
 			<div class="card-body">
           <div class="card-text">
@@ -57,7 +64,7 @@
           </div>
 			</div>
         </div>
-        <div class="card w-50 ">
+        <div class="card">
           <h5 class="card-header">Quick Start Guide</h5>
           <div class="card-body">
             <p class="card-text">Click a link below to jump to the relevant section.</p>
@@ -69,7 +76,7 @@
             </ol>
           </div>
         </div>
-      </div>
+		</div>
       <br />
       <div class="card bg-light">
         <div class="card-body">
@@ -78,106 +85,76 @@
         </div>
       </div>
       <br />
-      <div class="card bg-light">
+      <div class="card border-0">
         <div class="card-body">
           <h5 class="card-title"><a name="WriteSD">Write it to an SD Card</a></h5>
           <h2>Installing From a Windows PC</h2>
           <p>Once the image file has downloaded you will need unzip it with a file utility that can unpack .7z files such as 7-zip <a class="badge badge-info" href="http://www.7-zip.org/">http://www.7-zip.org</a> or winzip <a class="badge badge-info" href="http://www.winzip.com/">http://www.winzip.com</a></p>
-          <ul>
-            <li>Now that the file is unziped you can write it to an SD card. You can use an image writer such as win32diskimager to burn the image to the SD card. Win32diskimager can be downloaded from <a class="badge badge-info" href="http://sourceforge.net/projects/win32diskimager">http://sourceforge.net/projects/win32diskimager</a></li>
-            <li>Extract the executable from the zip file and run the Win32DiskImagerutility; you may need to run this as administrator. Right-click on the file, and select Run as administrator.</li>
-            <li>Select the Chromium OS image file you extracted earlier.</li>
-            <li> Select the drive letter of the SD card in the device box. Be careful to select the correct drive; if you get the wrong one you can destroy the data on your computer's hard disk. If you are using an SD card slot in your computer and can't see the drive in the Win32DiskImager window, try using an external SD adapter. </li>
-            <li> Click Write and wait for the write to complete. </li>
-            <li> Exit the imager and eject the SD card. </li>
-          </ul>
+          <p>Now that the file is unziped you can write it to an SD card. You can use an image writer such as win32diskimager to burn the image to the SD card. Win32diskimager can be downloaded from <a class="badge badge-info" href="http://sourceforge.net/projects/win32diskimager">http://sourceforge.net/projects/win32diskimager</a></p>
+          <p>Extract the executable from the zip file and run the Win32DiskImagerutility; you may need to run this as administrator. Right-click on the file, and select Run as administrator.</p>
+          <p>Select the Chromium OS image file you extracted earlier.</p>
+          <p> Select the drive letter of the SD card in the device box. Be careful to select the correct drive; if you get the wrong one you can destroy the data on your computer's hard disk. If you are using an SD card slot in your computer and can't see the drive in the Win32DiskImager window, try using an external SD adapter. </p>
+          <p> Click Write and wait for the write to complete. </p>
+          <p> Exit the imager and eject the SD card. </p>
           <p> </p>
           <h2>Installing From Mac OS X </h2>
-          <ul>
-            <li> If you are comfortable with the command line, you can write the image to a SD card without any additional software. Open a terminal, then run: </li>
-          </ul>
+          <p> If you are comfortable with the command line, you can write the image to a SD card without any additional software. Open a terminal, then run: </p>
           <p><kbd>diskutil list</kbd></p>
-          <ul>
-            <li>
-              <p>Identify the disk (not partition) of your SD card e.g. disk4, not disk4s1.</p>
-            </li>
-            <li>
-              <p>Unmount your SD card by using the disk identifier, to prepare for copying data to it:</p>
-            </li>
-          </ul>
+          <p>Identify the disk (not partition) of your SD card e.g. disk4, not disk4s1.</p>
+          <p>Unmount your SD card by using the disk identifier, to prepare for copying data to it:</p>
           <p><kbd>diskutil unmountDisk /dev/disk&lt;disk# from diskutil&gt;</kbd></p>
-          <ul>
-            <li>
-              <p>where disk is your BSD name e.g. <kbd>diskutil unmountDisk /dev/disk4</kbd></p>
-            </li>
-            <li>
-              <p>Copy the data to your SD card:</p>
-            </li>
-          </ul>
+          <p>where disk is your BSD name e.g. <kbd>diskutil unmountDisk /dev/disk4</kbd></p>
+          <p>Copy the data to your SD card:</p>
           <p><kbd>sudo dd bs=1m if=image.img of=/dev/rdisk&lt;disk#</kbd></p>
-          <ul>
-            <li>
-              <p>where disk is your BSD name e.g.</p>
-            </li>
-          </ul>
+          <p>where disk is your BSD name e.g.</p>
           <p><kbd>sudo dd bs=1m if=2016-03-18-raspbian-jessie.img of=/dev/rdisk4</kbd></p>
-          <ul>
-            <li>
-              <p>This will take a few minutes, depending on the image file size. You can check the progress by sending a SIGINFO signal (press Ctrl+T).</p>
-            </li>
-            <li>
-              <p>This may result in a dd: invalid number '1m' error if you have GNU coreutils installed. In that case, you need to use a block size of1M in the bs= section, as follows:</p>
-            </li>
-          </ul>
+          <p>This will take a few minutes, depending on the image file size. You can check the progress by sending a SIGINFO signal (press Ctrl+T).            </p>
+          <p>This may result in a dd: invalid number '1m' error if you have GNU coreutils installed. In that case, you need to use a block size of1M in the bs= section, as follows:</p>
           <p><kbd>sudo dd bs=1M if=image.img of=/dev/rdisk&lt;disk#</kbd></p>
-          <ul>
-            <li>
-              <p>If this command still fails, try using disk instead of rdisk, for example:</p>
-            </li>
-          </ul>
+          <p>If this command still fails, try using disk instead of rdisk, for example:</p>
           <p><kbd>sudo dd bs=1m if=2016-03-18-raspbian-jessie.img of=/dev/disk4</kbd></p>
-          <ul>
-            <li>
-              <p>or</p>
-            </li>
-          </ul>
+          <p>or</p>
           <p><kbd>sudo dd bs=1M if=2016-03-18-raspbian-jessie.img of=/dev/disk4</kbd></p>
           <div class="card">
-            <div class="card-body"> Now head over to the <a href="Learn.html" class="badge badge-success">Learning page</a> to learn about what Chromium OS can do. </div>
+            <div class="card-body"> Now head over to the learning page to find out about what Chromium OS can do. <a href="Learn.html" class="btn btn-success">Learning page</a> </div>
           </div>
         </div>
       </div>
     </div>
   </div>
   <br />
-  <!-- InstanceEndEditable --></div>
-<!-- #BeginLibraryItem "/Library/Sitemap.lbi" -->
-<div class="sitemap">
+  <!-- InstanceEndEditable --></div><!-- #BeginLibraryItem "/Library/Sitemap.lbi" -->
+<div class="sitemap bg-secondary">
   <div class="container">
-    <div class="row">
-      <div class="col-2 col-lg-2">
-        <h2><a href="index.html">Home</a></h2>
-        <ul>
-          <li><a href="Mission.html">Our Mission</a></li>
-        </ul>
+    <div class="card-group">
+      <div class="card border-0 bg-secondary">
+        <h2 class="card-title"><a href="index.html">Home</a></h2>
+        
+          <ul>
+            <li><a href="Mission.html">Our Mission</a></li>
+          </ul>
+       
       </div>
-      <div class="col-2 col-lg-2">
-        <h2><a href="download.html">Downloads</a></h2>
-        <ul>
-          <li>Download Release</li>
-          <li><a href="Install.html">Installation Instructions</a></li>
-          <li><a href="FAQs.html">FAQs</a></li>
-          <li><a href="Releases.html">Release Notes</a></li>
-        </ul>
+      <div class="card border-0 bg-secondary">
+		   <h2 class="card-title"><a href="download.html">Downloads</a></h2>  
+          <ul>
+            <li>Download Release</li>
+            <li><a href="Install.html">Installation Instructions</a></li>
+            <li><a href="FAQs.html">FAQs</a></li>
+            <li><a href="Releases.html">Release Notes</a></li>
+          </ul>
+        
       </div>
-      <div class="col-2 col-lg-2">
-        <h2><a href="Install.html">Install</a></h2>
+      <div class="card border-0 bg-secondary">
+        <h2 class="card-title"><a href="Install.html">Install</a></h2>
+		  
         <ul>
           <li><a href="Install.html">Install</a></li>
           <li>Compiling</li>
         </ul>
-      </div>
-      <div class="col-2 col-lg-2">
+
+		  </div>
+      <div class="card border-0 bg-secondary">
         <h2><a href="Learn.html">Learn</a></h2>
         <ul>
           <li><a href="Learn.html">Learn</a></li>
@@ -186,13 +163,13 @@
           <li>Roadmap</li>
         </ul>
       </div>
-      <div class="col-2 col-lg-2">
+      <div class="card border-0 bg-secondary">
         <h2><a href="News.html">News</a></h2>
         <ul>
           <li>Blog, Newsletter Signup</li>
         </ul>
       </div>
-      <div class="col-2 col-lg-2">
+      <div class="card border-0 bg-secondary">
         <h2><a href="contactus.html">Contact Us</a></h2>
         <ul>
           <li><a href="Meetus.html">Meet the team</a></li>
@@ -210,7 +187,5 @@
 <footer class="footer">
   <div class="container">Copyright 2018 ChromiumOS-SBC.Org, All Rights Reserved.</div>
 </footer>
-<!-- #EndLibraryItem -->
-</body>
-<!-- InstanceEnd -->
-</html>
+<!-- #EndLibraryItem --></body>
+<!-- InstanceEnd --></html>
